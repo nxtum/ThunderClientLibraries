@@ -36,7 +36,7 @@ option(DISPLAYINFO
 option(SECURITYAGENT
         "Include the securityagent library." OFF)
 option(PLAYERINFO
-        "Include the playerinfo COMRPC abstraction library." OFF)
+        "Include the playerinfo COMRPC abstraction library." ON)
 option(PROTOCOLS
         "Include the protocols library." ON)
 option(PROVISIONPROXY
@@ -45,6 +45,8 @@ option(CDMI
         "Include OpenCDM interface." OFF)
 option(CRYPTOGRAPHY
         "Include the cryptography library." OFF)
+option(HELLOWORLD
+        "Include the helloworld lib" ON)
 
 option(INSTALL_TESTS "Install the test applications" OFF)
 

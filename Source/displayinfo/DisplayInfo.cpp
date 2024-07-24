@@ -92,6 +92,7 @@ private:
 
     void Operational(const bool upAndRunning) override
     {
+        std::cout << "called operational";
         _lock.Lock();
 
         if (upAndRunning) {

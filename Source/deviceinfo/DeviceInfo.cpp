@@ -306,6 +306,7 @@ public:
 private:
     void Operational(const bool upAndRunning) override
     {
+        std::cout << "device operational func called";
         _lock.Lock();
 
         if (upAndRunning) {

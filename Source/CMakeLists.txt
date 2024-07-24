@@ -19,6 +19,10 @@ if(BLUETOOTHAUDIOSINK)
     add_subdirectory(bluetoothaudiosink)
 endif()
 
+if(HELLOWORLD)
+    add_subdirectory(helloworld)
+endif()
+
 if(BLUETOOTHAUDIOSOURCE)
     add_subdirectory(bluetoothaudiosource)
 endif()

@@ -66,6 +66,7 @@ private:
     void Operational(const bool upAndRunning) override
     {
         _lock.Lock();
+        std::cout << "playerinfo operational" << std::endl;
 
         if (upAndRunning) {
             if (_playerInterface == nullptr) {
